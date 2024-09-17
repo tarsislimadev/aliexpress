@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "web": "npx cypress open",
+    "headless": "npx cypress run --browser firefox"
+  },
   "engines": {
     "node": "v22.8.0"
+  },
+  "dependencies": {
+    "cypress": "^13.7.2"
   }
 }
