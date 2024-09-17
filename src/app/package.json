@@ -2,5 +2,8 @@
   "name": "aliexpress",
   "version": "0.1.0",
   "main": "index.js",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "v22.8.0"
+  }
 }
