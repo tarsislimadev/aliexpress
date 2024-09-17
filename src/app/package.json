@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "web": "npx cypress open",
-    "headless": "npx cypress run --browser firefox"
+    "headless": "npx cypress run --browser electron"
   },
   "engines": {
     "node": "v22.8.0"
